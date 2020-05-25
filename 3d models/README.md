@@ -1,4 +1,4 @@
-These are the 3d model files that are used to print out the platform that's used for balancing. The model that has been printed uses 30% infill and has shown good performance in simulating PID control for a 2 DOF arm. More improvement will come.
+These are the 3d model files that are used to print out the platform that's used for balancing. The model that has been printed uses 30% infill and has shown good performance in simulating PID control for a 2 DOF arm. Parts are all in .STL files and ready to be 3D printed. More improvement will come.
 
 Note:
 1. The movement are a bit restricted due to parts being tight fit
