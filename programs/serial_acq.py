@@ -15,7 +15,7 @@ ser = serial.Serial('COM3', 250000)
 print("connected to: " + ser.portstr)
 sleep(2)
 
-data =[]                       # empty list to store the data
+data =[]                       # List for storing data
 
 with data_file:
     
@@ -24,12 +24,12 @@ with data_file:
     writer.writerow(header)
     
     for i in range(10000):
-        b = ser.readline()            # read a byte string
-        string_n = b.decode()         # decode byte string into Unicode  
-        string = string_n.rstrip()    # remove \n and \r
-        data = string.split(",")      # splits data into a list
+        b = ser.readline()            # Read string
+        string_n = b.decode()         # Decode string  
+        string = string_n.rstrip()    
+        data = string.split(",")      # Splits data into a list
         print(data)
-        writer.writerow(data)         # write data in csv
-        data.append(string)           # add to the end of data list
-        sleep(0.001)                  # wait (sleep) 0.1 seconds
+        writer.writerow(data)         # Write data in CSV File
+        data.append(string)           # Add data to list
+        sleep(0.001)                  # Wait for 0.001 seconds
     ser.close()
