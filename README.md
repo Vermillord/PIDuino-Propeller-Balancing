@@ -1,5 +1,5 @@
 # PIDuino Propeller Balancing
-![PIDuino](https://raw.githubusercontent.com/Vermillord/PIDuino-Propeller-Balancing/master/images/787464resized.jpg?token=ANS3LUO2B5JVRV2LI7VSFNK6ZPLSM)
+![PIDuino](/images/787464resized.jpg)
 
 Project in creating a platform for testing PID control. The control is to be used for balancing an arm by using two brushless motor with propellers. Currently uses Kalman Filter for filtering datas obtained from MPU6050. Files are to be uploaded which includes:
 
