@@ -10,7 +10,7 @@ Project in creating a platform for testing PID control. The control is to be use
 ## Circuit
 ![Circuit](/images/circuit_bb.jpg)
 
-The electrical system used is as shown in the above image. The components used are:
+The electrical system used is as shown in the image above. The components used are:
   1. Arduino UNO R3
   2. MPU6050
   3. ESC 30A
