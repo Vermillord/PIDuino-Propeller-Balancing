@@ -5,7 +5,7 @@ Project in creating a platform for testing PID control. The control is to be use
 
 1. [Programs](https://github.com/Vermillord/PIDuino-Propeller-Balancing/tree/master/programs)
 2. [3D parts](https://github.com/Vermillord/PIDuino-Propeller-Balancing/tree/master/3d%20models) (.STL files)
-3. Circuit diagram
+3. More improvements to come
 
 ## Circuit
 ![Circuit](/images/circuit_bb.jpg)
